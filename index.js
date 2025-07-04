@@ -105,8 +105,6 @@ app.post("/new", async (req, res) => {
   currentUserId = id;
 
   res.redirect("/");
-  //Hint: The RETURNING keyword can return the data that was inserted.
-  //https://www.postgresql.org/docs/current/dml-returning.html
 });
 
 app.listen(port, () => {
